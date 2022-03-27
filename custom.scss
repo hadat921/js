@@ -1,0 +1,125 @@
+/* reset margin, pading */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.banner {
+
+    height: 1000px;
+    background: url('./banner.jpg') center center no-repeat;
+    padding: 30px;
+    .about-sign-int {
+        height: 80px;
+        width: 100%;
+        text-align: right;
+        .About, .Sign-in {
+            margin-top: 20px;
+            padding: 7px 15px;
+            text-decoration: none;
+            display: inline-block;
+            text-transform: uppercase;
+        
+        }
+        .Sign-in {
+            color: aqua;
+            margin-right: 60px;
+            margin-left: 25px;
+            border-radius: 20px;
+            border: 1px solid rgb(47, 167, 236);
+        }
+        .btn-startnow {
+            text-align: center;
+            button{
+            text-transform: uppercase;
+            padding: 10px 15px;
+            border-radius: 20px;
+            border: 1px solid rgb(36, 235, 142);
+            margin-top: 25px;
+            cursor: pointer;
+            }
+        
+        }
+    }
+    .logo {
+
+
+        background: url('./logo.png') center center no-repeat;
+        margin-top: 10px;
+        height: 350px;
+    
+    
+    
+    }
+    
+    .text {
+        text-align: center;
+        margin-top: 30px;
+        span {
+            display: block;
+            font-size: 20px;
+            color: green;
+        }
+        
+        
+    }
+    .conten-center {
+        .left,
+        .right,
+        .center {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.right img {
+    width: 100px;
+    height: 100px;
+}
+
+.left img {
+    width: 100px;
+    height: 100px;
+}
+
+.center img {
+    width: 100px;
+    height: 100px;
+
+}
+span {
+    display: block;
+    font-size: 20px;
+    color: rgb(51, 148, 238)
+    ;
+}
+    }
+   
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

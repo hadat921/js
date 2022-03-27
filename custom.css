@@ -1,0 +1,109 @@
+/* reset margin, pading */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.red {
+  border: 1px solid red;
+}
+
+.green {
+  border: 1px solid green;
+}
+
+.banner {
+  height: 1000px;
+  background: url("./banner.jpg") center center no-repeat;
+  padding: 30px;
+}
+
+.banner .about-sign-int {
+  height: 80px;
+  width: 100%;
+  text-align: right;
+}
+
+.banner .about-sign-int .About, .banner .about-sign-int .Sign-in {
+  margin-top: 20px;
+  padding: 7px 15px;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.banner .about-sign-int .Sign-in {
+  color: aqua;
+  margin-right: 60px;
+  margin-left: 25px;
+  border-radius: 20px;
+  border: 1px solid #2fa7ec;
+}
+
+.banner .about-sign-int .btn-startnow {
+  text-align: center;
+}
+
+.btn-startnow button {
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 1px solid #24eb8e;
+  margin-top: 25px;
+  cursor: pointer;
+
+}
+
+.btn-startnow {
+  text-align: center;
+
+}
+
+
+.banner .logo {
+  background: url("./logo.png") center center no-repeat;
+  margin-top: 10px;
+  height: 350px;
+}
+
+.banner .text {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.banner .text span {
+  display: block;
+  font-size: 20px;
+  color: green;
+}
+
+.banner .content-center .left,
+.banner .content-center .right,
+.banner .content-center .center {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.banner .content-center .right img {
+  width: 100px;
+  height: 100px;
+}
+
+.banner .content-center .left img {
+  width: 100px;
+  height: 100px;
+}
+
+.banner .content-center .center img {
+  width: 100px;
+  height: 100px;
+}
+
+.banner .content-center span {
+  display: block;
+  font-size: 20px;
+  color: #3394ee;
+  padding-top: 10px;
+}
